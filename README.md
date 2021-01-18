@@ -56,14 +56,9 @@ Additionally, a couple of columns were created for variables that might be of us
 
 
 
+## Exploratory Data Analysis 
 
-
-
-
-
-
-
-
+I looked at the distribution of some of our variables as well as built a correlation heatmap and pivot tables to further understand how our variables are related to each other. A couple of the observations are found below:
 
 <img width="405" alt="Screen Shot 2021-01-18 at 1 26 35 PM" src="https://user-images.githubusercontent.com/77576356/104909836-215ff980-5991-11eb-9bd8-35d65e2c815c.png">
 
