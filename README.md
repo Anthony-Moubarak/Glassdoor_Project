@@ -66,3 +66,37 @@ I looked at the distribution of some of our variables as well as built a correla
 
 
 <img width="658" alt="Screen Shot 2021-01-18 at 12 12 28 PM" src="https://user-images.githubusercontent.com/77576356/104909846-2755da80-5991-11eb-9996-300e0fd76451.png">
+
+
+## Model Building
+
+All categorical variables were transformed into numerical, through the creation of dummy variables, and the data was split into train and test sets (0.8 : 0.2 ratio)
+
+Three models were used, and the metric used to define model performance is mean absolute error (MAE).
+
+The three models used were:
+* **Multiple Linear Regression:** Baseline model.
+
+* **Lasso Regression:** Since there are a lot of categorical variables and the data is sparse, i thought a lasso regression might perform better than normal linear regression.
+
+* **Random Forest: **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
