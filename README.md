@@ -1,4 +1,11 @@
-# Glassdoor_Project
+# Data Science Salary Estimator 
+
+## Introduction
+
+This project was inspired by a YouTube series called Data Science Project from Scratch by Ken Jee, a youtuber who also works as a data scientist at an unnamed company. I took Ken’s videos as a direction on how to approach each stage of the project and built my own model using my code, rather than copying his work and taking the exact same steps. As a newcomer to the Data Science community, this series was a perfect introduction to the lifecycle of a data science project and has taught me a lot when it comes to formulating a thought process that can be used in almost all my forthcoming projects.
+
+
+## Project Overview
 
 -  Used a web scraper (found online) that scrapped 956 jobs from Glassdoor using python and selenium.
 -  Transformed all categorical columns into numerical values and selected most important features to build model.
