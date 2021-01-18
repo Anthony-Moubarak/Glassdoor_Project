@@ -79,24 +79,16 @@ The three models used were:
 
 * **Lasso Regression:** Since there are a lot of categorical variables and the data is sparse, i thought a lasso regression might perform better than normal linear regression.
 
-* **Random Forest: **
+* **Random Forest:** With the sparsity associated with the data, I thought that this would be a good fit.
 
 
+## Model performance
+The Random Forest model and Lasso Regression far outperformed Linear Regression in both train and test sets. The MAE values of each model in the test set are the following:
 
+*	**Linear Regression**: MAE = 1971585777.13 (Definite over fitting)
+*	**Lasso Regression**: MAE = 15.25
+*	**Random Forest** : MAE = 15.37
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+As a result, i tried combining the Lasso regression and Random forest models to check if i would get an even better model. The optimal split was to take half the result from each model, resulting in an improved MAE of 14.47.
 
 
