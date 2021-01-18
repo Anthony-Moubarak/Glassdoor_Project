@@ -35,4 +35,39 @@ Used web scraper (GitHub linked above) to collect 956 jobs from glassdoor.com, w
 
 ## Data Cleaning
 
-The data collected was cleaned in order for it to be useful in the model building stage of the project. 
+The data collected was cleaned in order for it to be useful in the model building stage of the project. The following changes were done on the data frame's columns:
+
+*	Changed the salary column into numeric values. 
+*	Removed rows without salaries or with salaries equal to -1 (corrupt entries). 
+*	Parsed rating out of company name. 
+*	Made a new column for company state.
+*	Transformed founded date into age of company.
+
+Additionally, a couple of columns were created for variables that might be of use in the model building stage:
+
+*	Added a column for if the job was at the company’s headquarters. 
+*	Made columns for if different skills were listed in the job description:
+    * Python  
+    * Excel  
+    * Spark 
+    
+*	Column for job title/poisition.
+*	Column for job description length. 
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="405" alt="Screen Shot 2021-01-18 at 1 26 35 PM" src="https://user-images.githubusercontent.com/77576356/104909836-215ff980-5991-11eb-9bd8-35d65e2c815c.png">
+
+<img width="322" alt="Screen Shot 2021-01-18 at 1 27 18 PM" src="https://user-images.githubusercontent.com/77576356/104909841-245aea00-5991-11eb-9083-5e9f3c39dff2.png">
+
+
+<img width="658" alt="Screen Shot 2021-01-18 at 12 12 28 PM" src="https://user-images.githubusercontent.com/77576356/104909846-2755da80-5991-11eb-9996-300e0fd76451.png">
